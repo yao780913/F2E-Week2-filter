@@ -1,0 +1,23 @@
+@import 'helpers/_variables.scss';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+}
+input,
+select,
+textarea{
+    // padding: 8px 16px;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+body, 
+html{
+    margin: 0 ;
+    padding: 0 ;
+    height: 100%;
+    width: 100% ;
+    background-color: $color-grey-1 ;
+}

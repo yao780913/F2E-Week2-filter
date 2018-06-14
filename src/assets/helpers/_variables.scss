@@ -1,0 +1,20 @@
+
+$color-purple: #7828B4;
+$color-purple-light: #9013EF;
+$color-grey-1: #F2F2F2;
+$color-grey-2: #EBEBEB;
+$color-grey-3: #D7D7D7;
+$color-grey-4: #9B9B9B;
+
+$color-white: #FFF;
+$color-black: #000;
+
+$bdrs: 25px;
+
+
+
+@mixin flex($j: center, $a: center){
+    display:flex;
+    justify-content:$j;
+    align-items: $a;
+}
